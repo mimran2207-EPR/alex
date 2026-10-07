@@ -12,7 +12,8 @@
     "test": "vitest run",
     "deploy": "wrangler deploy",
     "heygen": "tsx scripts/build-heygen-scripts.ts",
-    "capture": "tsx scripts/capture-screens.ts"
+    "capture": "tsx scripts/capture-screens.ts",
+    "video-scripts": "tsx scripts/build-video-scripts.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
